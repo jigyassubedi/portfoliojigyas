@@ -1,5 +1,5 @@
 import makePath from "@/libs/makePath";
-import Image from "next/image";
+import Image from "./next/image";
 import Link from "next/link";
 import React from "react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";

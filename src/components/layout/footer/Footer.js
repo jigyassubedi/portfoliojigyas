@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "./next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="footer-logo w-75px h-75px mb-6">
               <Link href="/">
                 <Image
-                  src="/img/logo/logo.png"
+                  src="./img/logo/logo.png"
                   alt=""
                   width={400}
                   height={400}

@@ -1,7 +1,7 @@
 import ButtonSeondary from "@/components/shared/buttons/ButtonSeondary";
 import FunFact from "@/components/shared/fun-fact/FunFact";
 import Socials from "@/components/shared/socials/Socials";
-import Image from "next/image";
+import Image from "./next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -28,7 +28,7 @@ const Hero = () => {
             </h1>
             <div className="flex md:hidden justify-center items-center my-30px">
               <Image
-                src="/img/hero/me.png"
+                src="./img/hero/me.png"
                 width={437}
                 height={475}
                 alt="banner image"
@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
           <div className="hidden md:flex md:justify-center md:items-center relative after:absolute after:bottom-0 after:left-0 after:w-220px after:h-220px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:-mr-5%">
             <Image
-              src="/img/hero/me.png"
+              src="./img/hero/me.png"
               width={437}
               height={475}
               alt="banner image"
