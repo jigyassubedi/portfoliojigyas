@@ -35,9 +35,12 @@ const Navbar = ({ isActiveMobileMenu, setIsActiveMobileMenu, isSticky }) => {
 
         {/* <!-- action button --> */}
         <li>
-          <ButtonPrimary url={isIndexPage ? "#contact" : "/#contact"}>
-            Hire Me!
-          </ButtonPrimary>
+        <ButtonPrimary url={isIndexPage ? "#" : "/#"}>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <FaMapMarkerAlt style={{ marginRight: '8px' }} />
+            Australia
+          </div>
+  </ButtonPrimary>
         </li>
         {/* <!-- open mobile menu button --> */}
         <li className="menu-bar lg:hidden">
