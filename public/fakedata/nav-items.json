@@ -10,16 +10,7 @@
       "path":"#portfolio",
       "path2":"/#portfolio"  
     },
-    {
-      "name":"Resume",
-      "path":"#resume",
-      "path2":"/#resume"  
-    },
-    {
-      "name":"Skills",
-      "path":"#skills",
-      "path2":"/#skills"  
-    },
+    
     {
       "name":"Testimonials",
       "path":"#testimonials",
