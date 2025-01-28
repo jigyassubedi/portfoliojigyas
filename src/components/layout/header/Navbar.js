@@ -4,6 +4,7 @@ import { useHeaderContext } from "@/context_api/HeaderContext";
 import getNavItems from "@/libs/getNavItems";
 import indexingAndActiveLink from "@/libs/indexingAndActiveLink";
 import Link from "next/link";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { useEffect } from "react";
 
 const Navbar = ({ isActiveMobileMenu, setIsActiveMobileMenu, isSticky }) => {
@@ -35,11 +36,11 @@ const Navbar = ({ isActiveMobileMenu, setIsActiveMobileMenu, isSticky }) => {
 
         {/* <!-- action button --> */}
         <li>
-          <ButtonPrimary url={isIndexPage ? "" : "/"}>
+          <ButtonPrimary>
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <FaMapMarkerAlt style={{ marginRight: '8px' }} />
-          Australia
-          </div>
+      <FaMapMarkerAlt style={{ marginRight: '8px' }} />
+      Australia
+    </div>
           </ButtonPrimary>
         </li>
         {/* <!-- open mobile menu button --> */}
