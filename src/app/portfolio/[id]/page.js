@@ -5,9 +5,9 @@ import { notFound } from "next/navigation";
 const portfolio = getPortfolio();
 export const metadata = {
   title:
-    "Portfolio Details - Gerold - Personal Portfolio React  NextJs Template",
+    "Cloudix",
   description:
-    "Portfolio Details - Gerold - Personal Portfolio React  NextJs Template",
+    "IT Solutions for a Smarter Business",
 };
 
 export default async function PortfolioDetails({ params }) {
