@@ -12,7 +12,7 @@ const Services1 = () => {
         <div className="container">
           {/* <!-- section heading --> */}
           <div className="text-center flex flex-col items-center mb-10 md:mb-50px">
-            <HeadingPrimary>My Quality Services</HeadingPrimary>
+            <HeadingPrimary>Our Quality Services</HeadingPrimary>
             <p
               className="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp"
               data-wow-delay=".4s"
