@@ -1,7 +1,7 @@
 import ButtonSeondary from "@/components/shared/buttons/ButtonSeondary";
 import FunFact from "@/components/shared/fun-fact/FunFact";
 import Socials from "@/components/shared/socials/Socials";
-import Image from "./next/image";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 

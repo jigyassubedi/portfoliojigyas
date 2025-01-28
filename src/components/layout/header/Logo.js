@@ -1,6 +1,6 @@
 "use client";
 import { useHeaderContext } from "@/context_api/HeaderContext";
-import Image from "./next/image";
+import Image from "next/image";
 import Link from "next/link";
 
 const Logo = ({ isSticky }) => {
