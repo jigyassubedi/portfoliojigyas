@@ -99,10 +99,10 @@ const Contact1 = () => {
                         Phone
                       </p>
                       <a
-                        href="tel:0123456789"
+                        href="tel:61 438 268 891"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
-                        +01 123 654 8096
+                        +61 438 268 891
                       </a>
                     </div>
                   </li>
@@ -121,7 +121,7 @@ const Contact1 = () => {
                         href="mailto:mail@mail.com"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
-                        gerolddesign@mail.com
+                        info@cloudix.com
                       </a>
                     </div>
                   </li>
@@ -140,8 +140,8 @@ const Contact1 = () => {
                         href="#"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
-                        Warne Park Street Pine, <br />
-                        FL 33157, New York
+                       Melbourne VIC 3000,  <br />
+                       Australia
                       </a>
                     </div>
                   </li>
