@@ -8,12 +8,14 @@ import Services1 from "@/components/sections/services/Services1";
 // import Skills1 from "@/components/sections/skills/Skills1";
 import Testimonials1 from "@/components/sections/testimonials/Testimonials1";
 import { usePortfolioRenderContext } from "@/context_api/PortfolioRenderContext";
+import LogoCarousel from "@/components/sections/carousel/LogoCarousel";
 
 const IndexMain = () => {
   const isPortfolio = usePortfolioRenderContext();
   return (
     <main>
       <Hero />
+      <LogoCarousel />
       <Services1 />
       <Portfolio1 />
       {/* <Resume1 />
