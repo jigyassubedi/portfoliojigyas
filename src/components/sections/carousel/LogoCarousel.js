@@ -22,7 +22,7 @@ const LogoCarousel = () => {
               alt={`Logo ${index + 1}`}
               width={100}
               height={100}
-              className="h-18 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
           </div>
         ))}
