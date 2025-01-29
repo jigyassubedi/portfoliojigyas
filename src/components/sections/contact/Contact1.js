@@ -137,7 +137,7 @@ const Contact1 = () => {
                         Address
                       </p>
                       <a
-                        href="#"
+                        href="https://maps.app.goo.gl/FAtbJK3XTXQdp6Wh8"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
                        Melbourne VIC 3000,  <br />
@@ -145,6 +145,7 @@ const Contact1 = () => {
                       </a>
                     </div>
                   </li>
+                  <Socials />
                 </ul>
               </div>
             </div>
