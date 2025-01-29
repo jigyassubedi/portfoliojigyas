@@ -6,7 +6,6 @@ const Socials = () => {
   const socials = getSocials();
   return (
     <div>
-      <p className="text-primary-color-light dark:text-white-color flex-col mb-4"> Join Our Social Community </p>
       <ul className="flex gap-x-5">
         {socials?.length
           ? socials?.map(({ iconName, path }, idx) => (
