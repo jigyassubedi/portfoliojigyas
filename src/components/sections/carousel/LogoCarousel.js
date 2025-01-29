@@ -2,12 +2,12 @@
 import Image from "next/image";
 
 const logos = [
-  "/img/carousel/logo1.png",
-  "/img/carousel/logo2.png",
-  "/img/carousel/logo1.png",
-  "/img/carousel/logo2.png",
-  "/img/carousel/logo1.png",
-  "/img/carousel/logo2.png",
+  "./img/carousel/logo1.png",
+  "./img/carousel/logo2.png",
+  "./img/carousel/logo1.png",
+  "./img/carousel/logo2.png",
+  "./img/carousel/logo1.png",
+  "./img/carousel/logo2.png",
 ];
 
 const LogoCarousel = () => {
