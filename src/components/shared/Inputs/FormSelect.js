@@ -5,7 +5,7 @@ const FormSelect = () => {
   useEffect(() => {
     import("../../../libs/nice-select2").then(({ default: NiceSelect }) => {
       new NiceSelect(document.getElementById("conService"));
-      //   NiceSelect.bind(document.getElementById("conService"));
+        NiceSelect.bind(document.getElementById("conService"));
     });
   }, []);
   return (
