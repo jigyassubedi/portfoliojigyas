@@ -1,22 +1,31 @@
 "use client";
 import React, { useEffect } from "react";
 
-const FormSelect = () => {
+const FormSelect = ({ value, onChange }) => {
   useEffect(() => {
     import("../../../libs/nice-select2").then(({ default: NiceSelect }) => {
-      new NiceSelect(document.getElementById("conService"));
-        NiceSelect.bind(document.getElementById("conService"));
+      const selectElement = document.getElementById("conService");
+      if (selectElement) {
+        new NiceSelect(selectElement);
+      }
     });
   }, []);
+
   return (
-    <select name="conService" id="conService" className="tj-nice-select">
-      <option defaultValue={"Choose Service"} disabled>
+    <select
+      name="conService"
+      id="conService"
+      className="tj-nice-select"
+      value={value} // Ensure correct value binding
+      onChange={(e) => onChange(e.target.value)} // Handle change properly
+    >
+      <option value="" disabled>
         Choose Service
       </option>
-      <option defaultValue="braning">Branding Design</option>
-      <option defaultValue="web">Web Design</option>
-      <option defaultValue="uxui">UI/UX Design</option>
-      <option defaultValue="app">App Design</option>
+      <option value="Branding Design">Branding Design</option>
+      <option value="Web Design">Web Design</option>
+      <option value="UI/UX Design">UI/UX Design</option>
+      <option value="App Design">App Design</option>
     </select>
   );
 };

@@ -136,8 +136,12 @@ const Contact1 = () => {
                       />
                     </div>
                     <div className="form_group sm:col-start-1 sm:col-span-2">
-                    <FormSelect value={formData.conService} onChange={(value) => setFormData({ ...formData, conService: value })} />
-                    </div>
+  <FormSelect
+    value={formData.conService}
+    onChange={(selectedValue) => setFormData({ ...formData, conService: selectedValue })}
+  />
+</div>
+
                     <div className="sm:col-start-1 sm:col-span-2">
                       <textarea
                         name="message"
