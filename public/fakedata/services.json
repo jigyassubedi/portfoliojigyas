@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Web Development",
-    "img": "/img/services/1.png",
+    "img": "./img/services/1.png",
     "iconName": "flaticon-design",
     "desc": "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
     "shortDesc": "Ensure your website looks great on any device,with layouts that adapt to different screen sizes seamlessly.",
@@ -26,7 +26,7 @@
   {
     "id": 2,
     "title": "UI/UX Design",
-    "img": "/img/services/2.png",
+    "img": "./img/services/2.png",
     "iconName": "flaticon-ux-design",
     "desc": "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
     "shortDesc": "Set up user-friendly CMS solutions like WordPress or custom-built options so clients can manage content  easily.",
@@ -50,7 +50,7 @@
   {
     "id": 3,
     "title": "Content Writing",
-    "img": "/img/services/3.png",
+    "img": "./img/services/3.png",
     "iconName": "flaticon-web-design",
     "desc": "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
     "shortDesc": "Build and integrate APIs to connect websites with third-party applications, enhancing functionality and performance.",
@@ -74,7 +74,7 @@
   {
     "id": 4,
     "title": "Digital Marketing",
-    "img": "/img/services/4.png",
+    "img": "./img/services/4.png",
     "iconName": "flaticon-3d-movie",
     "desc": "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
     "shortDesc": "Refresh outdated websites with modern, appealing designs that align with current brand goals and user expectations.",
