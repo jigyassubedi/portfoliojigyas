@@ -10,10 +10,10 @@ import { useParams } from "next/navigation";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 const sliderItems = [
-  "./img/portfolio-gallery/p-gallery-1.jpg",
-  "./img/portfolio-gallery/p-gallery-2.jpg",
-  "./img/portfolio-gallery/p-gallery-3.jpg",
-  "./img/portfolio-gallery/p-gallery-4.jpg",
+  "/portfoliojigyas/img/portfolio-gallery/p-gallery-1.jpg",
+  "/portfoliojigyas/img/portfolio-gallery/p-gallery-2.jpg",
+  "/portfoliojigyas/img/portfolio-gallery/p-gallery-3.jpg",
+  "/portfoliojigyas/img/portfolio-gallery/p-gallery-4.jpg",
 ];
 const PortfolioDetailsPrimary = () => {
   const portfolios = getPortfolio();

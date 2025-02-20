@@ -14,6 +14,7 @@ const BlogCommentSingle = ({ comment }) => {
             className="w-full"
             width={2000}
             height={2000}
+            unoptimized
           />
         </Link>
       </div>

@@ -23,7 +23,7 @@ const Logo = ({ isSticky }) => {
         className={`w-15 h-15  ${
           isInnerPage && !isSticky ? "hidden" : "inlin-block dark:hidden"
         }`}
-        src="./img/logo/logo-dark.png"
+        src="/portfoliojigyas/img/logo/logo-dark.png"
         alt=""
         width={1000}
         height={1000}
