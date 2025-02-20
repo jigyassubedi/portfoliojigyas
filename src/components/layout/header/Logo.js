@@ -13,10 +13,11 @@ const Logo = ({ isSticky }) => {
             ? "inline-block   "
             : " hidden dark:inline-block"
         } `}
-        src="./img/logo/logo.png"
+        src="/portfoliojigyas/img/logo/logo.png"
         alt=""
         width={1000}
         height={1000}
+        unoptimized
       />
       <Image
         className={`w-15 h-15  ${
