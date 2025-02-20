@@ -58,7 +58,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="copyright text-gray-color whitespace-nowrap text-sm md:text-base mt-5">
-              © 2024 All rights reserved by{" "}
+              © 2025 All rights reserved by{" "}
               <Link
                 href="https://www.instagram.com/jigyassubedi"
                 className="text-white-color hover:text-primary-color"

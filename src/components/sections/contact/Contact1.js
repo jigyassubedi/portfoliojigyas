@@ -222,7 +222,7 @@ const Contact1 = () => {
                         href="https://maps.app.goo.gl/FAtbJK3XTXQdp6Wh8"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
-                        Melbourne VIC 3000, <br />
+                        Geelong VIC 3218, <br />
                         Australia
                       </a>
                      
