@@ -11,10 +11,11 @@ const Footer = () => {
             <div className="footer-logo w-75px h-75px mb-6">
               <Link href="/">
                 <Image
-                  src="./img/logo/logo.png"
-                  alt=""
+                  src="/portfoliojigyas/img/logo/logo.png"
+                  alt="Service Image"
                   width={400}
                   height={400}
+                  unoptimized
                 />
               </Link>
             </div>

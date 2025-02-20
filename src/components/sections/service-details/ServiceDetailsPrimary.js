@@ -29,7 +29,7 @@ const ServiceDetailsPrimary = () => {
               >
                 <div className="rounded-lg relative overflow-hidden">
                   <div className="rounded-t-lg overflow-hidden">
-                  <Image src={img} alt="Service Image" width={2000} height={20000} unoptimized />
+                  <Image src={img} alt="Service Image" width={2000} height={2000} unoptimized />
 
                   </div>
 
