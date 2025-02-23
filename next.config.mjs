@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
-
-const isProd = process.env.NODE_ENV === "production";
-
 const nextConfig = {
   output: "export",
-  basePath: isProd ? "/portfoliojigyas" : "",
-  assetPrefix: isProd ? "/portfoliojigyas/" : "",
+  images: {
+    unoptimized: true, // Required for GitHub Pages
+  },
+  basePath: "/portfoliojigyas", // Important for GitHub Pages
 };
-
-export default nextConfig;
+module.exports = nextConfig;
